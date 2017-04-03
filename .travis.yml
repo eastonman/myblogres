@@ -16,7 +16,7 @@ after_script:
   - git config user.email "gzmanyang@126.com"
   - git add .
   - git commit -m "Update docs"
-  - git push --force --quiet "https://8b6570d698315ffd61ebbd5d7bd96a58d669ef12@manyang901.github.io" master:master
+  - git push "https://8b6570d698315ffd61ebbd5d7bd96a58d669ef12@github.com/manyang901/manyang901.github.io.git" master:master
 # E: Build LifeCycle
 branches:
   only:
