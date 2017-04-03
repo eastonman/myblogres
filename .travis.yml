@@ -20,4 +20,4 @@ after_script:
 # E: Build LifeCycle
 branches:
   only:
-    - myblogres
+    - master
