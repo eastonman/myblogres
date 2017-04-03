@@ -1,0 +1,23 @@
+language: node_js
+node_js:
+  - "node"
+# S: Build Lifecycle
+install:
+  - npm install
+  - npm install -S hexo-generator-json-content
+#before_script:
+ # - npm install -g gulp
+script:
+  - hexo g
+after_script:
+  - cd ./public
+  - git init
+  - git config user.name "manyang901"
+  - git config user.email "gzmanyang@126.com"
+  - git add .
+  - git commit -m "Update docs"
+  - git push --force --quiet "https://8b6570d698315ffd61ebbd5d7bd96a58d669ef12@manyang901.github.io" master:master
+# E: Build LifeCycle
+branches:
+  only:
+    - master
