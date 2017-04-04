@@ -4,10 +4,11 @@ node_js:
 # S: Build Lifecycle
 install:
   - npm install
-  - npm install -S -g hexo-generator-json-content
+  - npm install -g hexo-cli
 before_script:
   - npm install -g gulp
 script:
+  - npm install
   - hexo g
 after_script:
   - cd ./public
