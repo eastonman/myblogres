@@ -10,12 +10,7 @@ tags: tech
 
 # 修改hosts文件实现科学上网
 ## 什么是hosts文件
-kgdlgzglzlgz
-测试
-testingigzigxgoxogxgoxohxohxohxofohxohyx
-
-
-officiality
+hosts文件就是系统存贮中用于指定特定域名的ip的文件
 
 
 ## 最新google hosts
