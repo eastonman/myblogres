@@ -8,6 +8,7 @@ install:
 #before_script:
  # - npm install -g gulp
 script:
+  - cd myblogres
   - hexo g
 after_script:
   - cd ./public
