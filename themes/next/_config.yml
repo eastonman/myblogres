@@ -266,7 +266,11 @@ mathjax:
 #duoshuo_shortname:
 
 # Disqus
-disqus_shortname: manyang901
+disqus:
+  enable: true
+  shortname: manyang901
+  count: true
+
 
 # Hypercomments
 #hypercomments_id:
