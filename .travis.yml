@@ -3,12 +3,10 @@ node_js:
   - "node"
 # S: Build Lifecycle
 install:
-  - npm install
   - npm install -g hexo-cli
 before_script:
-  - npm install -g gulp
-script:
   - npm install
+script:
   - hexo g
 after_script:
   - cd ./public
