@@ -12,6 +12,9 @@ tags: tech
 ## 什么是hosts文件
 hosts文件就是系统存贮中用于指定特定域名的ip的文件
 
+## hosts文件能干什么
+既然GFW没办法封禁所有的谷歌ip，那么总是有一些ip在国内也能够访问，这时候用hosts重定向谷歌的域名到这些ip，再使用https避免dpi，就可以成功访问谷歌了
+
 
 ## 最新google hosts
 hosts文件下载[hosts]( https://manyang901.github.io/2016/12/11/修改hosts文件实现科学上网/hosts)
