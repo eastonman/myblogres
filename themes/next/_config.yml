@@ -267,13 +267,13 @@ mathjax:
 
 # Disqus
 disqus:
-  enable: true
+  enable: false
   shortname: manyang901
   count: true
 
 
 # Hypercomments
-#hypercomments_id:
+hypercomments_id: 89255
 
 # Baidu Share
 # Available value:
