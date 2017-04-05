@@ -268,7 +268,7 @@ mathjax:
 # Disqus
 disqus:
   enable: false
-  shortname: manyang901
+  shortname:
   count: true
 
 
