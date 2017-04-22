@@ -266,11 +266,15 @@ mathjax:
 #duoshuo_shortname:
 
 # Disqus
+<<<<<<< HEAD
 disqus:
   enable: false
   shortname:
   count: true
 
+=======
+#disqus_shortname:
+>>>>>>> parent of 86b4a9c... changed comment sys
 
 # Hypercomments
 hypercomments_id: 89255
