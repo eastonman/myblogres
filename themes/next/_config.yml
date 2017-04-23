@@ -266,15 +266,11 @@ mathjax:
 #duoshuo_shortname:
 
 # Disqus
-<<<<<<< HEAD
 disqus:
   enable: false
   shortname:
   count: true
 
-=======
-#disqus_shortname:
->>>>>>> parent of 86b4a9c... changed comment sys
 
 # Hypercomments
 hypercomments_id: 89255
@@ -342,10 +338,9 @@ facebook_comments_plugin:
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
   enable: true
-
   app_id: o1fikX7UcG3tVqSN07LpxRfD-gzGzoHsz
-
   app_key: H3vCO53duLtitaJO0Dshuy1H
+
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
